@@ -1,0 +1,347 @@
+@font-face {
+  font-family: "Nexa_Slab_Black";
+  src:url('../fonts/Nexa_Slab_Black/Nexa_Slab_Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Brosha";
+  src:url('../fonts/Brosha/Brosha.ttf') format('truetype');
+}
+@font-face {font-family: "Kita Regular";
+  src: url("30ade359b1e477dc24ca2af3813d6753.eot"); /* IE9*/
+  src: url("30ade359b1e477dc24ca2af3813d6753.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("30ade359b1e477dc24ca2af3813d6753.woff2") format("woff2"), /* chrome、firefox */
+  url("30ade359b1e477dc24ca2af3813d6753.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/Kita_Regular/@font-face/30ade359b1e477dc24ca2af3813d6753.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("30ade359b1e477dc24ca2af3813d6753.svg#Kita Regular") format("svg"); /* iOS 4.1- */
+}
+
+.wrapper{
+  display: flex;
+}
+
+.name-title>h1{
+  font-family: "Nexa_Slab_Black";
+  color: white;
+  text-align: center;
+  font-size: 9em;
+}
+.top{
+  width:28em;
+  margin-left: auto;
+ margin-right: auto;
+ display: block;
+}
+.bottom{
+  width:28em;
+  margin-left: auto;
+ margin-right: auto;
+ display: block;
+}
+.hoagies>h1{
+  font-family: "Nexa_Slab_Black";
+  color: white;
+  text-align: center;
+  font-size: 6em;
+}
+.red-img{
+  width: 1.2em;
+}
+
+
+.hoagies>h3{
+  font-family: "Brosha";
+  color: white;
+  text-align: center;
+  font-size: 3.8em;
+
+}
+.hoagies>h4{
+  font-family: "Kita Regular";
+  color: white;
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.line{
+
+  width: 70%;
+  height:0.1em;
+  position: relative;
+  bottom:1em;
+  left:10em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background:
+    repeating-linear-gradient(to right,red 0,red 0.625em,transparent 0.625em,transparent 0.75em);
+
+}
+
+.line2{
+
+  width: 70%;
+  height:0.1em;
+  position: relative;
+  bottom:1em;
+  left:10em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background:
+    repeating-linear-gradient(to right,red 0,red 0.625em,transparent 0.625em,transparent 0.75em);
+
+}
+
+.bottom_design{
+  width:35em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.pizza{
+  position: absolute;
+  right: 70em;
+  width: 60%;
+}
+
+
+
+.appetizers{
+  position: relative;
+  right:3em;
+
+}
+
+.appetizers>h1{
+  font-family: "Nexa_Slab_Black";
+  color: white;
+  text-align: center;
+  font-size: 6em;
+}
+
+.appetizers>h3{
+  font-family: "Brosha";
+  color: white;
+  text-align: center;
+  font-size: 3.8em;
+
+}
+.appetizers>h4{
+  font-family: "Kita Regular";
+  color: white;
+  font-size: 1.8em;
+  text-align: center;
+}
+.appetizers>h1{
+  font-family: "Nexa_Slab_Black";
+  color: white;
+  text-align: center;
+  font-size: 5.2em;
+}
+
+.appetizers>h3{
+  font-family: "Brosha";
+  color: white;
+  text-align: center;
+  font-size: 3.2em;
+
+}
+.appetizers>h4{
+  font-family: "Kita Regular";
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.bottom2{
+  width:50em;
+  margin-left: auto;
+ margin-right: auto;
+ display: block;
+}
+
+.salads>h1{
+  font-family: "Nexa_Slab_Black";
+  color: white;
+  text-align: center;
+  font-size: 6em;
+}
+
+.salads>h3{
+  font-family: "Brosha";
+  color: white;
+  text-align: center;
+  font-size: 3.8em;
+
+}
+.salads>h4{
+  font-family: "Kita Regular";
+  color: white;
+  text-align: center;
+  font-size: 1.8em;
+}
+.salads{
+  border: 2px red dashed;
+  width:80%;
+  position: relative;
+  left:3em;
+
+}
+
+.right{
+  flex:1;
+}
+.left{
+  flex:1;
+}
+.footer{
+  text-align: center;
+  height: 25em;
+  position: relative;
+  z-index: 1;
+  background-image: url(../images/background_img.jpg);
+}
+.f{
+  padding-top: 10em;
+}
+.f>p{
+  color: white;
+  font-size: 1.5em;
+  font-family: "Nexa_Slab_Black";
+}
+
+html, body {
+  background-image: url(../images/background_img.jpg);
+  /* overflow-x: hidden; */
+  overflow-x: hidden;
+
+}
+
+@media only screen and (max-width: 1370px){
+  .wrapper{
+    display:block;
+  }
+  .left{
+    width:100%;
+    box-sizing: border-box;
+  }
+  .right{
+    width:100%;
+    box-sizing: border-box;
+  }
+  .name-title>h1{
+    font-family: "Nexa_Slab_Black";
+    color: white;
+    text-align: center;
+    font-size: 6.2em;
+  }
+  .hoagies>h1{
+    font-family: "Nexa_Slab_Black";
+    color: white;
+    text-align: center;
+    font-size: 3.8em;
+  }
+  .red-img{
+    width: 1.2em;
+  }
+
+
+  .hoagies>h4{
+    font-family: "Kita Regular";
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+  }
+
+  .bottom_design{
+    width:25em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .bottom2{
+    width:29em;
+    margin-left: auto;
+   margin-right: auto;
+   display: block;
+  }
+
+
+  .pizza{
+    position: static;
+    width:100%;
+  }
+
+  .appetizers{
+    position: static;
+
+  }
+  .appetizers>h1{
+    font-family: "Nexa_Slab_Black";
+    color: white;
+    text-align: center;
+    font-size: 3.7em;
+  }
+
+  .appetizers>h3{
+    font-family: "Brosha";
+    color: white;
+    text-align: center;
+    font-size: 3.2em;
+
+  }
+  .appetizers>h4{
+    font-family: "Kita Regular";
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  .line{
+
+    width: 100%;
+    height:0.1em;
+    position: static;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background:
+      repeating-linear-gradient(to right,red 0,red 0.625em,transparent 0.625em,transparent 0.75em);
+
+  }
+  .line2{
+
+    width: 100%;
+    height:0.1em;
+    position: static;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background:
+      repeating-linear-gradient(to right,red 0,red 0.625em,transparent 0.625em,transparent 0.75em);
+
+  }
+
+  .salads{
+    position: static;
+    width:100%;
+  }
+  .salads>h1{
+    font-family: "Nexa_Slab_Black";
+    color: white;
+    text-align: center;
+    font-size: 4.8em;
+  }
+
+  .salads>h3{
+    font-family: "Brosha";
+    color: white;
+    text-align: center;
+    font-size: 2.8em;
+
+  }
+  .salads>h4{
+    font-family: "Kita Regular";
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+  }
+
+}
